@@ -15,7 +15,10 @@
     - （2）make dev-tests命令里有执行make tests，但此时运行的环境在容器里，原容器Dockerfile制作的镜像并没有make命令，因此修改了Dockerfile文件，增加RUN apk add make; 其次为了保证容器的时间一致也需要设置一下时区，详见Dockerfile文件
   -
   - 运行结果显示，所有的测试项目都正常通过？(通过)
+    - _原代码测试结果：_
     - ![testend.png](doc/testend.png)
+    - 
+    - _修改后的测试结果：_
     - ![testenderr.png](doc/testenderr.png)
    
 
