@@ -36,8 +36,3 @@ class MyGreeter
         };
     }
 }
-
-// 实例化类
-$greeter = new MyGreeter();
-// 调用方法完成输出
-echo $greeter->greeting();
